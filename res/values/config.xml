@@ -16,6 +16,9 @@
 -->
 <resources>
     <string-array name="configs_base">
+        <!-- Don't pin camera app to save memory -->
+        <item>runtime_native_boot/pin_camera=false</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
