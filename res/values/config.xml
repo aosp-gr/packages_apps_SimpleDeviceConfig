@@ -19,6 +19,9 @@
         <!-- Don't pin camera app to save memory -->
         <item>runtime_native_boot/pin_camera=false</item>
 
+        <!-- Contribute app shortcuts to centralized AppSearch index -->
+        <item>systemui/shortcut_appsearch_integration=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
