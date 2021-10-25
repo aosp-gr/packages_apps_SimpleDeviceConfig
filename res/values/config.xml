@@ -25,6 +25,9 @@
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
+        <!-- Enable IORap readahead -->
+        <item>runtime_native_boot/iorap_readahead_enable=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
